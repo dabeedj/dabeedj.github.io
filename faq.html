@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Main page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/images/favicon/manifest.json">
+    <link rel="mask-icon" href="img/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <link media="all" type="text/css" rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <!-- header-->
+    <header class="header js-header">
+      <div class="container">
+        <div class="row flex-nowrap">
+          <div class="col header-logo"> <a href="/"><img src="/img/images/logo.png" width="105" height="40" alt="Quest Ground logo"></a></div>
+          <div class="col header-nav">
+            <button class="btn menu-btn menu-open js-open-menu" type="button">
+              <svg class="svg-icon" width="36" height="36" aria-hidden="true">
+                <use xlink:href="#menu"></use>
+              </svg>
+            </button>
+            <nav class="main-nav">
+              <button class="btn menu-btn menu-close js-close-menu" type="button">
+                <svg class="svg-icon" width="36" height="36" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg>
+              </button>
+              <div class="main-nav__inner">
+                <div class="main-nav__logo text-center"><a href="/"><img src="/img/images/logo.png" width="105" height="40" alt="Quest Ground logo"></a></div>
+                <ul class="list-unstyled main-nav__list">
+                  <li><a class="isCurrent" href="">Новини     </a></li>
+                  <li><a href="">Новачкам     </a></li>
+                  <li><a href="">Програма лояльностi</a></li>
+                  <li><a href="">Магазин     </a></li>
+                  <li><a href="contacts.html">Контакти     </a></li>
+                  <li class="hasSubNav"><a href="">Розпочати пригоди </a>
+                    <ul class="sub-menu">
+                      <li><a href="">Battle Room</a></li>
+                      <li><a href="">Quest Room</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end-->
+    <div class="page page-single faq">
+      <div class="shadow-bottom faq-header border-white text-shadow dark-shadow"> 
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 offset-md-6">
+              <div class="ttl-md">Новачок в Quest Ground?</div>
+              <p>Обери категорію яка тебе цікавить<br> та дізнайся більше про світ Quest Ground</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="faq-nav-box">
+        <div class="faq-nav-wrp">
+          <div class="faq-nav js-faq-nav">
+            <button class="faq-nav-btn faq-nav-btn--prev js-faq-nav-prev" type="button"></button>
+            <button class="faq-nav-btn faq-nav-btn--next js-faq-nav-next" type="button"></button>
+            <div class="main__clipper">
+              <div class="main__scroller faq-nav-scroller faq-nav__list js-scroll-canvas">
+                <div class="faq-nav__item js-faq-nav-item js-show-info" data-tab="#faq-tab-0"><a class="faq-nav__link bordered-shadow" style="background-image: url(img/pictures/f-1.jpg);" href="#"><span class="text-shadow faq-nav__item-name">Всі</span></a></div>
+                <div class="faq-nav__item js-faq-nav-item js-show-info" data-tab="#faq-tab-1"><a class="faq-nav__link bordered-shadow" style="background-image: url(img/pictures/f-2.jpg);" href="#"><span class="text-shadow faq-nav__item-name">Battle Room</span></a></div>
+                <div class="faq-nav__item js-faq-nav-item js-show-info" data-tab="#faq-tab-2"><a class="faq-nav__link bordered-shadow" style="background-image: url(img/pictures/f-3.jpg);" href="#"><span class="text-shadow faq-nav__item-name">Quest Room</span></a></div>
+                <div class="faq-nav__item js-faq-nav-item js-show-info" data-tab="#faq-tab-3"><a class="faq-nav__link bordered-shadow" style="background-image: url(img/pictures/f-4.jpg);" href="#"><span class="text-shadow faq-nav__item-name">Party Room</span></a></div>
+                <div class="faq-nav__item js-faq-nav-item js-show-info" data-tab="#faq-tab-4"><a class="faq-nav__link bordered-shadow" style="background-image: url(img/pictures/f-5.jpg);" href="#"><span class="text-shadow faq-nav__item-name">Дитячі свята</span></a></div>
+                <div class="faq-nav__item js-faq-nav-item js-show-info" data-tab="#faq-tab-5"><a class="faq-nav__link bordered-shadow" style="background-image: url(img/pictures/f-6.jpg);" href="#"><span class="text-shadow faq-nav__item-name">Настільні ігри</span></a></div>
+                <div class="faq-nav__item js-faq-nav-item js-show-info" data-tab="#faq-tab-6"><a class="faq-nav__link bordered-shadow" style="background-image: url(img/pictures/f-7.jpg);" href="#"><span class="text-shadow faq-nav__item-name">Програма лояльності</span></a></div>
+                <div class="faq-nav__item js-faq-nav-item js-show-info" data-tab="#faq-tab-7"><a class="faq-nav__link bordered-shadow" style="background-image: url(img/pictures/f-8.jpg);" href="#"><span class="text-shadow faq-nav__item-name">Приватні вечірки</span></a></div>
+                <div class="faq-nav__item js-faq-nav-item js-show-info" data-tab="#faq-tab-8"><a class="faq-nav__link bordered-shadow" style="background-image: url(img/pictures/f-9.jpg);" href="#"><span class="text-shadow faq-nav__item-name">QG Ніч</span></a></div>
+              </div>
+              <div class="main__bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="faq-tabs dark-shadow border-white">
+          <div class="faq-top-tab faq-tab js-faq-tab isVisible" id="faq-tab-0">
+            <div class="faq-top-tab__bg" style="background-image: url(/img/pictures/faq-1.jpg);"></div>
+            <div class="container">
+              <div class="faq-box lg text-shadow">
+                <div class="faq-box__row">
+                  <div class="faq-box__thumb bordered-shadow"><img class="shadow" src="/img/pictures/faq-1.jpg" width="270" height="120">
+                    <div class="faq-box__caption text-shadow">Ігровий процес 0</div>
+                  </div>
+                  <div class="faq-box__col">
+                    <div class="faq-box__ttl">Новий вид командних ігор від Quest Ground Entertainment  </div>
+                    <div class="faq-box__content">Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові ролі в ігровому процесі. Ігрові місця обладнані унікальними пристроями, а ігровий процесс розроблений таким чином, що від кожного гравця залежить результат матчу. На сьогодні в світі існує тільки одна гра в жанрі Battle Room - Пірати проти Імперії. Гра об’єднала в собі три піджанри: стратегія, екшен, покрокова гра.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-top-tab faq-tab js-faq-tab" id="faq-tab-1">
+            <div class="faq-top-tab__bg" style="background-image: url(/img/pictures/faq-1.jpg);"></div>
+            <div class="container">
+              <div class="faq-box lg text-shadow">
+                <div class="faq-box__row">
+                  <div class="faq-box__thumb bordered-shadow"><img class="shadow" src="/img/pictures/faq-1.jpg" width="270" height="120">
+                    <div class="faq-box__caption text-shadow">Ігровий процес 1</div>
+                  </div>
+                  <div class="faq-box__col">
+                    <div class="faq-box__ttl">Новий вид командних ігор від Quest Ground Entertainment  </div>
+                    <div class="faq-box__content">Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові ролі в ігровому процесі. Ігрові місця обладнані унікальними пристроями, а ігровий процесс розроблений таким чином, що від кожного гравця залежить результат матчу. На сьогодні в світі існує тільки одна гра в жанрі Battle Room - Пірати проти Імперії. Гра об’єднала в собі три піджанри: стратегія, екшен, покрокова гра.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-top-tab faq-tab js-faq-tab" id="faq-tab-2">
+            <div class="faq-top-tab__bg" style="background-image: url(/img/pictures/faq-1.jpg);"></div>
+            <div class="container">
+              <div class="faq-box lg text-shadow">
+                <div class="faq-box__row">
+                  <div class="faq-box__thumb bordered-shadow"><img class="shadow" src="/img/pictures/faq-1.jpg" width="270" height="120">
+                    <div class="faq-box__caption text-shadow">Ігровий процес 2</div>
+                  </div>
+                  <div class="faq-box__col">
+                    <div class="faq-box__ttl">Новий вид командних ігор від Quest Ground Entertainment  </div>
+                    <div class="faq-box__content">Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові ролі в ігровому процесі. Ігрові місця обладнані унікальними пристроями, а ігровий процесс розроблений таким чином, що від кожного гравця залежить результат матчу. На сьогодні в світі існує тільки одна гра в жанрі Battle Room - Пірати проти Імперії. Гра об’єднала в собі три піджанри: стратегія, екшен, покрокова гра.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-top-tab faq-tab js-faq-tab" id="faq-tab-3">
+            <div class="faq-top-tab__bg" style="background-image: url(/img/pictures/faq-1.jpg);"></div>
+            <div class="container">
+              <div class="faq-box lg text-shadow">
+                <div class="faq-box__row">
+                  <div class="faq-box__thumb bordered-shadow"><img class="shadow" src="/img/pictures/faq-1.jpg" width="270" height="120">
+                    <div class="faq-box__caption text-shadow">Ігровий процес 3</div>
+                  </div>
+                  <div class="faq-box__col">
+                    <div class="faq-box__ttl">Новий вид командних ігор від Quest Ground Entertainment  </div>
+                    <div class="faq-box__content">Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові ролі в ігровому процесі. Ігрові місця обладнані унікальними пристроями, а ігровий процесс розроблений таким чином, що від кожного гравця залежить результат матчу. На сьогодні в світі існує тільки одна гра в жанрі Battle Room - Пірати проти Імперії. Гра об’єднала в собі три піджанри: стратегія, екшен, покрокова гра.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-top-tab faq-tab js-faq-tab" id="faq-tab-4">
+            <div class="faq-top-tab__bg" style="background-image: url(/img/pictures/faq-1.jpg);"></div>
+            <div class="container">
+              <div class="faq-box lg text-shadow">
+                <div class="faq-box__row">
+                  <div class="faq-box__thumb bordered-shadow"><img class="shadow" src="/img/pictures/faq-1.jpg" width="270" height="120">
+                    <div class="faq-box__caption text-shadow">Ігровий процес 4</div>
+                  </div>
+                  <div class="faq-box__col">
+                    <div class="faq-box__ttl">Новий вид командних ігор від Quest Ground Entertainment  </div>
+                    <div class="faq-box__content">Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові ролі в ігровому процесі. Ігрові місця обладнані унікальними пристроями, а ігровий процесс розроблений таким чином, що від кожного гравця залежить результат матчу. На сьогодні в світі існує тільки одна гра в жанрі Battle Room - Пірати проти Імперії. Гра об’єднала в собі три піджанри: стратегія, екшен, покрокова гра.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-top-tab faq-tab js-faq-tab" id="faq-tab-5">
+            <div class="faq-top-tab__bg" style="background-image: url(/img/pictures/faq-1.jpg);"></div>
+            <div class="container">
+              <div class="faq-box lg text-shadow">
+                <div class="faq-box__row">
+                  <div class="faq-box__thumb bordered-shadow"><img class="shadow" src="/img/pictures/faq-1.jpg" width="270" height="120">
+                    <div class="faq-box__caption text-shadow">Ігровий процес 5</div>
+                  </div>
+                  <div class="faq-box__col">
+                    <div class="faq-box__ttl">Новий вид командних ігор від Quest Ground Entertainment  </div>
+                    <div class="faq-box__content">Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові ролі в ігровому процесі. Ігрові місця обладнані унікальними пристроями, а ігровий процесс розроблений таким чином, що від кожного гравця залежить результат матчу. На сьогодні в світі існує тільки одна гра в жанрі Battle Room - Пірати проти Імперії. Гра об’єднала в собі три піджанри: стратегія, екшен, покрокова гра.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-top-tab faq-tab js-faq-tab" id="faq-tab-6">
+            <div class="faq-top-tab__bg" style="background-image: url(/img/pictures/faq-1.jpg);"></div>
+            <div class="container">
+              <div class="faq-box lg text-shadow">
+                <div class="faq-box__row">
+                  <div class="faq-box__thumb bordered-shadow"><img class="shadow" src="/img/pictures/faq-1.jpg" width="270" height="120">
+                    <div class="faq-box__caption text-shadow">Ігровий процес 6</div>
+                  </div>
+                  <div class="faq-box__col">
+                    <div class="faq-box__ttl">Новий вид командних ігор від Quest Ground Entertainment  </div>
+                    <div class="faq-box__content">Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові ролі в ігровому процесі. Ігрові місця обладнані унікальними пристроями, а ігровий процесс розроблений таким чином, що від кожного гравця залежить результат матчу. На сьогодні в світі існує тільки одна гра в жанрі Battle Room - Пірати проти Імперії. Гра об’єднала в собі три піджанри: стратегія, екшен, покрокова гра.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-top-tab faq-tab js-faq-tab" id="faq-tab-7">
+            <div class="faq-top-tab__bg" style="background-image: url(/img/pictures/faq-1.jpg);"></div>
+            <div class="container">
+              <div class="faq-box lg text-shadow">
+                <div class="faq-box__row">
+                  <div class="faq-box__thumb bordered-shadow"><img class="shadow" src="/img/pictures/faq-1.jpg" width="270" height="120">
+                    <div class="faq-box__caption text-shadow">Ігровий процес 7</div>
+                  </div>
+                  <div class="faq-box__col">
+                    <div class="faq-box__ttl">Новий вид командних ігор від Quest Ground Entertainment  </div>
+                    <div class="faq-box__content">Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові ролі в ігровому процесі. Ігрові місця обладнані унікальними пристроями, а ігровий процесс розроблений таким чином, що від кожного гравця залежить результат матчу. На сьогодні в світі існує тільки одна гра в жанрі Battle Room - Пірати проти Імперії. Гра об’єднала в собі три піджанри: стратегія, екшен, покрокова гра.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faq-top-tab faq-tab js-faq-tab" id="faq-tab-8">
+            <div class="faq-top-tab__bg" style="background-image: url(/img/pictures/faq-1.jpg);"></div>
+            <div class="container">
+              <div class="faq-box lg text-shadow">
+                <div class="faq-box__row">
+                  <div class="faq-box__thumb bordered-shadow"><img class="shadow" src="/img/pictures/faq-1.jpg" width="270" height="120">
+                    <div class="faq-box__caption text-shadow">Ігровий процес 8</div>
+                  </div>
+                  <div class="faq-box__col">
+                    <div class="faq-box__ttl">Новий вид командних ігор від Quest Ground Entertainment  </div>
+                    <div class="faq-box__content">Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові ролі в ігровому процесі. Ігрові місця обладнані унікальними пристроями, а ігровий процесс розроблений таким чином, що від кожного гравця залежить результат матчу. На сьогодні в світі існує тільки одна гра в жанрі Battle Room - Пірати проти Імперії. Гра об’єднала в собі три піджанри: стратегія, екшен, покрокова гра.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="loader js-loader">
+            <div class="loader__img"><img src="/img/images/loader.svg" width="50" height="50" alt=""></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="faq-list">
+            <div class="faq-filter text-right">
+              <div class="dropdown">
+                <button class="dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Всі</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#" style="background-image: url(img/pictures/kit-6.jpg);"> <span>Ігровий процес</span></a><a class="dropdown-item" href="#" style="background-image: url(img/pictures/kit-5.jpg);"> <span>Турніри</span></a><a class="dropdown-item" href="#" style="background-image: url(img/pictures/kit-4.jpg);"> <span>Золото та нагороди</span></a></div>
+              </div>
+            </div>
+            <div class="faq-box lg text-shadow">
+              <div class="faq-box__row">
+                <div class="faq-box__thumb bordered-shadow"><img class="shadow" src="/img/pictures/faq-1.jpg" width="270" height="120">
+                  <div class="faq-box__caption text-shadow">Ігровий процес</div>
+                </div>
+                <div class="faq-box__col">
+                  <div class="faq-box__ttl">Гра в реальності, драйв, азарт та командний дух</div>
+                  <div class="faq-box__content">Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові ролі</div>
+                </div>
+              </div>
+            </div>
+            <div class="bordered-shadow acordeon js-acordeon">
+              <div class="acordeon__img"><img src="/img/pictures/chh-1.jpg" width="185" height="39"><span>Ігровий процес</span></div>
+              <div class="acordeon__head js-acordeon-heading">
+                <div class="acordeon__title">Яка кількість гравців оптимальна для гри?</div>
+                <div class="acordeon__icon"> <span class="icon icon-arrow-down"></span></div>
+              </div>
+              <div class="acordeon__body js-acordeon-body">Залежить від режиму гри та складу команд. Якщо в вашій команді є новачки, наші інструктори сперше запускають тренувальний режим гри який триває до 25 хвилин. Рекомендуєм відвідати сторінку <a href="">“Дистанційний курс морського вовка”</a> запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин. запускають тренувальний режим гри який триває до 25 хвилин. Після тренування запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин.</div>
+            </div>
+            <div class="bordered-shadow acordeon js-acordeon">
+              <div class="acordeon__img"><img src="/img/pictures/chh-1.jpg" width="185" height="39"><span>Ігровий процес</span></div>
+              <div class="acordeon__head js-acordeon-heading">
+                <div class="acordeon__title">Чи потрібна фізична підготовка або спеціальні навички для гри в Battle Room?</div>
+                <div class="acordeon__icon"> <span class="icon icon-arrow-down"></span></div>
+              </div>
+              <div class="acordeon__body js-acordeon-body">Залежить від режиму гри та складу команд. Якщо в вашій команді є новачки, наші інструктори сперше запускають тренувальний режим гри який триває до 25 хвилин. Рекомендуєм відвідати сторінку <a href="">“Дистанційний курс морського вовка”</a> запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин. запускають тренувальний режим гри який триває до 25 хвилин. Після тренування запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин.</div>
+            </div>
+            <div class="bordered-shadow acordeon js-acordeon">
+              <div class="acordeon__img"><img src="/img/pictures/chh-1.jpg" width="185" height="39"><span>Ігровий процес</span></div>
+              <div class="acordeon__head js-acordeon-heading">
+                <div class="acordeon__title">Я ніколи не грав. Як навчитись? Наскільки ігровий процес складний?</div>
+                <div class="acordeon__icon"> <span class="icon icon-arrow-down"></span></div>
+              </div>
+              <div class="acordeon__body js-acordeon-body">Залежить від режиму гри та складу команд. Якщо в вашій команді є новачки, наші інструктори сперше запускають тренувальний режим гри який триває до 25 хвилин. Рекомендуєм відвідати сторінку <a href="">“Дистанційний курс морського вовка”</a> запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин. запускають тренувальний режим гри який триває до 25 хвилин. Після тренування запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин.</div>
+            </div>
+            <div class="bordered-shadow acordeon js-acordeon">
+              <div class="acordeon__img"><img src="/img/pictures/chh-1.jpg" width="185" height="39"><span>Ігровий процес</span></div>
+              <div class="acordeon__head js-acordeon-heading">
+                <div class="acordeon__title">Скільки часу триває гра?</div>
+                <div class="acordeon__icon"> <span class="icon icon-arrow-down"></span></div>
+              </div>
+              <div class="acordeon__body js-acordeon-body">Залежить від режиму гри та складу команд. Якщо в вашій команді є новачки, наші інструктори сперше запускають тренувальний режим гри який триває до 25 хвилин. Рекомендуєм відвідати сторінку <a href="">“Дистанційний курс морського вовка”</a> запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин. запускають тренувальний режим гри який триває до 25 хвилин. Після тренування запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин.</div>
+            </div>
+            <div class="bordered-shadow acordeon js-acordeon">
+              <div class="acordeon__img"><img src="/img/pictures/chh-1.jpg" width="185" height="39"><span>Ігровий процес</span></div>
+              <div class="acordeon__head js-acordeon-heading">
+                <div class="acordeon__title">Режими та інша штука. Що якщо нас буде в двадцять раз більше людей ніж поміщається. Чи можна влаштувати шашлик на подвірьї та їсти крабів?</div>
+                <div class="acordeon__icon"> <span class="icon icon-arrow-down"></span></div>
+              </div>
+              <div class="acordeon__body js-acordeon-body">Залежить від режиму гри та складу команд. Якщо в вашій команді є новачки, наші інструктори сперше запускають тренувальний режим гри який триває до 25 хвилин. Рекомендуєм відвідати сторінку <a href="">“Дистанційний курс морського вовка”</a> запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин. запускають тренувальний режим гри який триває до 25 хвилин. Після тренування запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин.</div>
+            </div>
+            <div class="bordered-shadow acordeon js-acordeon">
+              <div class="acordeon__img"><img src="/img/pictures/chh-1.jpg" width="185" height="39"><span>Ігровий процес</span></div>
+              <div class="acordeon__head js-acordeon-heading">
+                <div class="acordeon__title">Я ніколи не грав. Як навчитись? Наскільки ігровий процес складний?</div>
+                <div class="acordeon__icon"> <span class="icon icon-arrow-down"></span></div>
+              </div>
+              <div class="acordeon__body js-acordeon-body">Залежить від режиму гри та складу команд. Якщо в вашій команді є новачки, наші інструктори сперше запускають тренувальний режим гри який триває до 25 хвилин. Рекомендуєм відвідати сторінку <a href="">“Дистанційний курс морського вовка”</a> запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин. запускають тренувальний режим гри який триває до 25 хвилин. Після тренування запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин.</div>
+            </div>
+            <div class="bordered-shadow acordeon js-acordeon">
+              <div class="acordeon__img"><img src="/img/pictures/chh-1.jpg" width="185" height="39"><span>Ігровий процес</span></div>
+              <div class="acordeon__head js-acordeon-heading">
+                <div class="acordeon__title">Скільки часу триває гра?</div>
+                <div class="acordeon__icon"> <span class="icon icon-arrow-down"></span></div>
+              </div>
+              <div class="acordeon__body js-acordeon-body">Залежить від режиму гри та складу команд. Якщо в вашій команді є новачки, наші інструктори сперше запускають тренувальний режим гри який триває до 25 хвилин. Рекомендуєм відвідати сторінку <a href="">“Дистанційний курс морського вовка”</a> запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин. запускають тренувальний режим гри який триває до 25 хвилин. Після тренування запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин.</div>
+            </div>
+            <div class="faq-box lg text-shadow">
+              <div class="faq-box__row">
+                <div class="faq-box__thumb bordered-shadow"><img class="shadow" src="/img/pictures/faq-3.jpg" width="270" height="120">
+                  <div class="faq-box__caption text-shadow">Турніри</div>
+                </div>
+                <div class="faq-box__col">
+                  <div class="faq-box__ttl">Гра в реальності, драйв, азарт та командний дух</div>
+                  <div class="faq-box__content">Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові Спеціально обладнаня ігрова зона для змагання двох команд від 2-х гравців в кожній команді. Гравці обирають ігрові місця та відіграють ключові ють ігрові місця та відіграють ключові ють ігрові місця та відіграють ключові ють ігрові місця та відіграють </div>
+                </div>
+              </div>
+            </div>
+            <div class="bordered-shadow acordeon js-acordeon">
+              <div class="acordeon__img"><img src="/img/pictures/faq-3-1.jpg" width="185" height="39"><span>Ігровий процес</span></div>
+              <div class="acordeon__head js-acordeon-heading">
+                <div class="acordeon__title">Яка кількість гравців оптимальна для гри?</div>
+                <div class="acordeon__icon"> <span class="icon icon-arrow-down"></span></div>
+              </div>
+              <div class="acordeon__body js-acordeon-body">Залежить від режиму гри та складу команд. Якщо в вашій команді є новачки, наші інструктори сперше запускають тренувальний режим гри який триває до 25 хвилин. Рекомендуєм відвідати сторінку <a href="">“Дистанційний курс морського вовка”</a> запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин. запускають тренувальний режим гри який триває до 25 хвилин. Після тренування запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин.</div>
+            </div>
+            <div class="bordered-shadow acordeon js-acordeon">
+              <div class="acordeon__img"><img src="/img/pictures/faq-3-1.jpg" width="185" height="39"><span>Ігровий процес</span></div>
+              <div class="acordeon__head js-acordeon-heading">
+                <div class="acordeon__title">Чи потрібна фізична підготовка або спеціальні навички для гри в Battle Room?</div>
+                <div class="acordeon__icon"> <span class="icon icon-arrow-down"></span></div>
+              </div>
+              <div class="acordeon__body js-acordeon-body">Залежить від режиму гри та складу команд. Якщо в вашій команді є новачки, наші інструктори сперше запускають тренувальний режим гри який триває до 25 хвилин. Рекомендуєм відвідати сторінку <a href="">“Дистанційний курс морського вовка”</a> запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин. запускають тренувальний режим гри який триває до 25 хвилин. Після тренування запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин.</div>
+            </div>
+            <div class="bordered-shadow acordeon js-acordeon">
+              <div class="acordeon__img"><img src="/img/pictures/faq-3-1.jpg" width="185" height="39"><span>Ігровий процес</span></div>
+              <div class="acordeon__head js-acordeon-heading">
+                <div class="acordeon__title">Хто приймає участь в турнірі. Чому заборонено грати з грудними дітьми приймає участь в турнірі. Чому заборонено грати з груднифывфыми дітьми?</div>
+                <div class="acordeon__icon"> <span class="icon icon-arrow-down"></span></div>
+              </div>
+              <div class="acordeon__body js-acordeon-body">Залежить від режиму гри та складу команд. Якщо в вашій команді є новачки, наші інструктори сперше запускають тренувальний режим гри який триває до 25 хвилин. Рекомендуєм відвідати сторінку <a href="">“Дистанційний курс морського вовка”</a> запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин. запускають тренувальний режим гри який триває до 25 хвилин. Після тренування запускається стандартний режим гри який триває до 40 хвилин. Таким чином один сеанс триває до 70 хвилин.</div>
+            </div>
+            <div class="text-center"><a class="btn btn-outline-primary order-btn" href="">ЗАБРОНЮВАТИ BATTLE ROOM</a></div>
+          </div>
+        </div>
+      </div>
+      <section class="section ch-contacts faq__contacts dark-shadow">
+        <div class="container">
+          <h2 class="ttl-md section__ttl text-center">Залишились питання?</h2>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="ch-contacts__ttl">Телефонуйте, пишіть або заходьте в гості!</div>
+              <div class="contacts-info">
+                <div class="row">
+                  <div class="col">
+                    <div class="contacts-info__ttl d-flex align-items-center">
+                      <div class="icon icon-tel"> </div>Телефон
+                    </div>
+                    <ul class="list-unstyled">
+                      <li> <a href="tel:+38 073 561 66 88">+38 073 561 66 88</a></li>
+                      <li> <a href="tel:+38 073 561 66 88">+38 098 561 66 88</a></li>
+                    </ul>
+                    <div class="contacts-info__ttl d-flex align-items-center">
+                      <div class="icon icon-marker"></div>Адреса
+                    </div>
+                    <ul class="list-unstyled">
+                      <li> м. Львів, <br>вул. Хорватська 6<br><span class="text-warning">біля ц.Анни</span></li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <div class="contacts-info__ttl d-flex align-items-center">
+                      <div class="icon icon-email"></div>E–mail
+                    </div>
+                    <ul class="list-unstyled">
+                      <li> <a href="mailto:lviv@questground.com">lviv@questground.com</a></li>
+                    </ul>
+                    <div class="contacts-info__ttl">Ми в соціальних мережах:</div>
+                    <ul class="list-unstyled contacts-soc-list contacts-soc-list--type-1">
+                      <li> <a href="https://www.facebook.com/questground/">
+                          <div class="icon icon-fb"></div></a></li>
+                      <li> <a href="https://www.instagram.com/questground/">
+                          <div class="icon icon-inst"></div></a></li>
+                      <li> <a href="https://www.youtube.com/channel/UCrgoQbDEQR_uzxtxj2iMeFg">
+                          <div class="icon icon-yt"></div></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="links">
+                <div class="ch-contacts__ttl">Корисні посилання:</div><a class="btn btn-outline-primary ch-contacts__btn" href="contacts.html#map">Ми на мапі</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-3 footer-logo"><a href="/"><img src="/img/images/logo.png" width="233" height="89" alt="Quest Groun"></a></div>
+          <div class="col-xs-12 col-md-9 footer-nav">
+            <div class="row">
+              <div class="col-xs-12 col-sm-3">
+                <ul class="list-unstyled footer-nav-list">
+                  <li class="isActive"><a href="#">Новини</a></li>
+                  <li><a href="#">Новачкам</a></li>
+                  <li><a href="#">Програма лояльності</a></li>
+                  <li><a href="#">Магазин</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <ul class="list-unstyled footer-nav-list">
+                  <li><a href="contacts.html">Контакти </a></li>
+                  <li><a href="#">Kids Ground</a></li>
+                  <li><a href="#">Battle Room</a></li>
+                  <li><a href="#">Quest Room</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="footer__title">Контакти:</div>
+                <div class="contacts-info">
+                  <div class="row">
+                    <div class="col">
+                      <div class="contacts-info__ttl d-flex align-items-center">
+                        <div class="icon icon-tel"> </div>Телефон
+                      </div>
+                      <ul class="list-unstyled">
+                        <li> <a href="tel:+38 073 561 66 88">+38 073 561 66 88</a></li>
+                        <li> <a href="tel:+38 073 561 66 88">+38 098 561 66 88</a></li>
+                      </ul>
+                      <div class="contacts-info__ttl d-flex align-items-center">
+                        <div class="icon icon-marker"></div>Адреса
+                      </div>
+                      <ul class="list-unstyled">
+                        <li> м. Львів, <br>вул. Хорватська 6<br><span class="text-warning">біля ц.Анни</span></li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                      <div class="contacts-info__ttl d-flex align-items-center">
+                        <div class="icon icon-email"></div>E–mail
+                      </div>
+                      <ul class="list-unstyled">
+                        <li> <a href="mailto:lviv@questground.com">lviv@questground.com</a></li>
+                      </ul>
+                      <div class="contacts-info__ttl">Ми в соціальних мережах:</div>
+                      <ul class="list-unstyled contacts-soc-list contacts-soc-list--type-1">
+                        <li> <a href="https://www.facebook.com/questground/">
+                            <div class="icon icon-fb"></div></a></li>
+                        <li> <a href="https://www.instagram.com/questground/">
+                            <div class="icon icon-inst"></div></a></li>
+                        <li> <a href="https://www.youtube.com/channel/UCrgoQbDEQR_uzxtxj2iMeFg">
+                            <div class="icon icon-yt"></div></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="footer__title">Наші проекти:</div><a class="other-project" href="">
+            <div class="other-project__img"><img src="/img/pictures/1-pr.jpg" alt=""></div></a>
+        </div>
+        <div class="row justify-content-between align-items-center footline">
+          <div class="col copy">Всі права захищенні, 2018</div>
+        </div>
+      </div>
+    </footer>
+    <!-- modals-->
+    <div class="modal modal-video fade" id="modal-video" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-video js-modal-video">
+              <div id="js-modal-video"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order fade" id="modal-order" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Бронювання гри</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse js-order-form" action="">
+              <template id="order-thanks">
+                <div class="thanks text-center js-thanks">
+                  <div> 
+                    <div class="icon ok"></div>
+                  </div>
+                  <div class="thanks__ttl">Дякуємо за замовлення!</div>
+                  <div class="thanks__txt">Найближчим часом ми зателефонуємо вам на вказаний номер телефону</div><a class="thanks__link" href="tel:+380676758482">+38 (067) 675 84 82</a><small>*при замовленні після 22:00 очікуйте дзвінок наступного дня</small>
+                </div>
+              </template>
+              <div class="col-sm-6">
+                <div class="js-order-inner order-inner">
+                  <div class="js-order-controls">
+                    <div class="form-group">
+                      <select class="form-control" name="team" required>
+                        <option value="0">Кількість гравців</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="text" placeholder="Ваше ім’я">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="text" placeholder="Ваше прізвище">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="tel" placeholder="Ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="email" placeholder="Ваш e–mail">
+                    </div>
+                    <div class="form-group">
+                      <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Забронювати гру</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="game">
+                  <div class="game__ttl">Пірати проти Імперії: Морський Бій</div>
+                  <ul class="list-unstyled game__list">
+                    <li>
+                      <div class="key">Дата:</div>
+                      <div class="val"> 21.11.2017 <span>(вівторок)</span></div>
+                    </li>
+                    <li>
+                      <div class="key">Година:</div>
+                      <div class="val"> 12.00–13.10</div>
+                    </li>
+                    <li>
+                      <div class="key">Адреса:</div>
+                      <div class="val"> м. Львів, Хорватська 6</div>
+                    </li>
+                    <li>
+                      <div class="key">Ціна:</div>
+                      <div class="val">200 грн <span>(з команди)</span></div>
+                      <div class="val">100 грн <span>(з кожного гравця)</span></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-thanks fade" id="modal-thanks" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Замовлення пригод</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <div class="txt">Дякуємо за замовлення!<br>Ми зв’яжемося з вами найближчим часом<br>за вказаним телефоном: <a href="tel:+380676758482">+38 (067) 675 84 82</a></div>
+            <button class="btn btn-outline-dark js-popup-close" type="button">Ок, дякую</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order fade" id="modal-individual" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Індивідуальний прорахунок</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse" action="">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="team" required>
+                    <option value="">Вкажіть кількість гравців</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="" cols="30" rows="8" placeholder="Опишіть ваші побажання"></textarea>
+                </div>
+                <div class="text-center footnote">Ми врахуємо ващі побажання, перевіримо графік замовлень та зв’яжемось з вами найближчим часом</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="date" required>
+                    <option value="">Оберіть бажану дату</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="time" required>
+                    <option value="">Оберіть годину початку пригод</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Ваше ім’я та прізвище" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="tel" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Ваш e–mail" required>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Забронювати гру</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order fade" id="modal-tournament" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Замовлення турніру</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse" action="">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="team" required>
+                    <option value="">Вкажіть кількість гравців</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="" cols="30" rows="8" placeholder="Опишіть середній вік гравців та ваші побажання"></textarea>
+                </div>
+                <div class="text-center footnote">Ми врахуємо ващі побажання, перевіримо графік замовлень та зв’яжемось з вами найближчим часом</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="date" required>
+                    <option value="">Оберіть бажану дату</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="time" required>
+                    <option value="">Оберіть годину початку пригод</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Ваше ім’я та прізвище" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="tel" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Ваш e–mail" required>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Забронювати гру</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order modal-complect fade" id="modal-complect" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Замовлення пригод <span>Комплект №1 </span></div>
+            <p>3,5 год. розваг для 4-7 гравців ПН-ЧТ до 18:00</p>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse" action="">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <textarea class="form-control" name="" cols="30" rows="6" placeholder="Ваш коментар або додаткові побажання"></textarea>
+                </div>
+                <div class="game">
+                  <ul class="list-unstyled game__list">
+                    <li>
+                      <div class="key">Адреса:</div>
+                      <div class="val"> м. Львів, Хорватська 6</div>
+                    </li>
+                    <li>
+                      <div class="key">Ціна:</div>
+                      <div class="val">1700 грн</div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="text-center footnote">Ми врахуємо ващі побажання, перевіримо графік замовлень та зв’яжемось з вами найближчим часом</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="date" required>
+                    <option value="">Оберіть бажану дату</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="time" required>
+                    <option value="">Оберіть приблизну годину початку</option>
+                    <option value="1">12:00</option>
+                    <option value="2">13:00</option>
+                    <option value="3">14:00</option>
+                    <option value="4">15:00</option>
+                    <option value="5">16:00</option>
+                    <option value="6">17:00</option>
+                    <option value="6">18:00</option>
+                    <option value="6">19:00</option>
+                    <option value="6">20:00</option>
+                    <option value="6">21:00</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Ваше ім’я та прізвище" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="tel" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Ваш e–mail" required>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Замовити</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-blog fade" id="modal-blog" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <button class="close-article" type="button" data-dismiss="modal" aria-label="Close"><span class="d-flex align-items-center"><span class="icon icon-arrow-white" aria-hidden="true"> </span>Назад</span></button>
+          <div class="modal-body clearfix js-post-content"></div>
+        </div>
+      </div>
+    </div>
+    <!-- modals end-->
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCkYAwhzbXlBayCV1HYYFRy9nR_2Z4gujw"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <!-- footer end-->
+  </body>
+</html>

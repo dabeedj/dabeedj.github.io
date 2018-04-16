@@ -1,0 +1,2232 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Main page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/images/favicon/manifest.json">
+    <link rel="mask-icon" href="img/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <link media="all" type="text/css" rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <!-- header-->
+    <header class="header js-header">
+      <div class="container">
+        <div class="row flex-nowrap">
+          <div class="col header-logo"> <a href="/"><img src="/img/images/logo.png" width="105" height="40" alt="Quest Ground logo"></a></div>
+          <div class="col header-nav">
+            <button class="btn menu-btn menu-open js-open-menu" type="button">
+              <svg class="svg-icon" width="36" height="36" aria-hidden="true">
+                <use xlink:href="#menu"></use>
+              </svg>
+            </button>
+            <nav class="main-nav">
+              <button class="btn menu-btn menu-close js-close-menu" type="button">
+                <svg class="svg-icon" width="36" height="36" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg>
+              </button>
+              <div class="main-nav__inner">
+                <div class="main-nav__logo text-center"><a href="/"><img src="/img/images/logo.png" width="105" height="40" alt="Quest Ground logo"></a></div>
+                <ul class="list-unstyled main-nav__list">
+                  <li><a class="isCurrent" href="">Новини     </a></li>
+                  <li><a href="">Новачкам     </a></li>
+                  <li><a href="">Програма лояльностi</a></li>
+                  <li><a href="">Магазин     </a></li>
+                  <li><a href="contacts.html">Контакти     </a></li>
+                  <li class="hasSubNav toOrder"><a class="js-anchor-link" href="#order-box">Забронювати сеанс</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end-->
+    <div class="page">
+      <div class="main-slider index-slider dark-shadow js-main-slider">
+        <div class="main-slide index-slide" style="background-image: url(../img/pictures/br.jpg);">
+          <div class="main-slide__container index-slide__container">
+            <div class="d-md-flex">
+              <div class="index-slide__logo text-center align-self-start"><img src="/img/images/pirates.png" alt="" width="166" height="90"></div>
+              <div class="col main-slide__text text-shadow">
+                <div class="ttl-large">Battle Room</div>
+                <div class="ttl-md">Пірати проти Імперії</div>
+                <div class="slogan"> <em>“Жанр, який зміне ваше<br> уявлення про розваги”</em></div>
+                <button class="btn btn--sm btn-outline-primary btn-slider-sm js-popup-video" type="button" data-video="z0NUQ-u4fOY"> <span class="btn-icon">
+                    <svg class="svg-icon" width="9" height="10" aria-hidden="true">
+                      <use xlink:href="#play"></use>
+                    </svg></span>Дивитись відео                             </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="quest-place-inf">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-5 left"><span>м. Львів, вул. Хорваська, 6</span><span>тел. <a href="tel:+38093123456">+38 (093) 123 456</a></span></div>
+            <div class="col-xs-12 col-md-7 right">
+              <ul class="list-unstyled">
+                <li><span class="icon">
+                    <svg class="svg-icon" width="21" height="21" aria-hidden="true">
+                      <use xlink:href="#clock"></use>
+                    </svg></span>до <b>70 </b>хв</li>
+                <li><span class="icon">
+                    <svg class="svg-icon" width="22" height="21" aria-hidden="true">
+                      <use xlink:href="#users"></use>
+                    </svg></span>Для двох команд: 2–3 гравця<small>vs</small>2–3 гравця</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="section dark-shadow slider-section dark-bg dark-bg--2 slider-arrows qr-brdr">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="room-desc">
+                <div class="d-flex room-desc__row">
+                  <div class="room-desc__icon"><img src="/img/images/pirates.png" width="162" height="86" alt="pirates"></div>
+                  <div class="room-desc__ttl">
+                    <div class="ttl-large">Battle Room</div>
+                    <div class="ttl-sm">Пірати проти Імперії</div>
+                  </div>
+                </div>
+                <div class="room-desc__txt">Командна рольова гра, що не має аналогів у світі. </div>
+                <div class="room-desc__content">
+                  <p>Збирай команду, обирай сторону, яку відстоюватимеш. Очолюй командування флотом та вирушай назустріч морським пригодам. Відчуй особливий вид ментального адреналіну.</p>
+                  <p>На тебе та твоїх друзів чекають запеклі баталії, під час якої вам доведеться знаходити та відстежувати ворожі кораблі, змінювати дислокацію своїх та блискавично знищувати ворожий флот. Усе аби добитися перемоги над твоїми ж друзями з ворожої команди.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="reviews">
+                <div class="reviews__slideer">
+                  <div class="slider">
+                    <div class="js-slider">
+                      <div class="review">
+                        <div class="review__head">
+                          <div class="d-flex info">
+                            <div class="review__userpick">
+                              <div class="userpick"><img src="/img/pictures/user-fb-icon.png" width="46" height="46" alt=""/>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="name">Ірина Миколаївна </div>
+                              <div class="about">про <span class="text-warning">Quest Ground</span> та <span class="text-primary">Battle Room</span></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="review__content">Морський бій - гра дитинства. Еіколи б не подумав що цю просту, здавалося б, гру можна настільки кастомізувати, зробити його командним та настільки видовищним та інтерактивним. За грою час пролітає незамітно і скільки в гру не грай, все ще цікаво.</div>
+                        <div class="review__src">Знайди відгук на <a href="#">Google Maps</a></div>
+                      </div>
+                      <div class="review">
+                        <div class="review__head">
+                          <div class="d-flex info">
+                            <div class="review__userpick">
+                              <div class="userpick"><img src="/img/pictures/user-fb-icon.png" width="46" height="46" alt=""/>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="name">Ірина Миколаївна </div>
+                              <div class="about">про <span class="text-warning">Quest Ground</span> та <span class="text-primary">Battle Room</span></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="review__content">Морський бій - гра дитинства. Еіколи б не подумав що цю просту, здавалося б, гру можна настільки кастомізувати, зробити його командним та настільки видовищним та інтерактивним. За грою час пролітає незамітно і скільки в гру не грай, все ще цікаво.</div>
+                        <div class="review__src">Знайди відгук на <a href="#">Google Maps</a></div>
+                      </div>
+                      <div class="review">
+                        <div class="review__head">
+                          <div class="d-flex info">
+                            <div class="review__userpick">
+                              <div class="userpick"><img src="/img/pictures/user-fb-icon.png" width="46" height="46" alt=""/>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="name">Ірина Миколаївна </div>
+                              <div class="about">про <span class="text-warning">Quest Ground</span> та <span class="text-primary">Battle Room</span></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="review__content">Морський бій - гра дитинства. Еіколи б не подумав що цю просту, здавалося б, гру можна настільки кастомізувати, зробити його командним та настільки видовищним та інтерактивним. За грою час пролітає незамітно і скільки в гру не грай, все ще цікаво.</div>
+                        <div class="review__src">Знайди відгук на <a href="#">Google Maps</a></div>
+                      </div>
+                      <div class="review">
+                        <div class="review__head">
+                          <div class="d-flex info">
+                            <div class="review__userpick">
+                              <div class="userpick"><img src="/img/pictures/user-fb-icon.png" width="46" height="46" alt=""/>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="name">Ірина Миколаївна </div>
+                              <div class="about">про <span class="text-warning">Quest Ground</span> та <span class="text-primary">Battle Room</span></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="review__content">Морський бій - гра дитинства. Еіколи б не подумав що цю просту, здавалося б, гру можна настільки кастомізувати, зробити його командним та настільки видовищним та інтерактивним. За грою час пролітає незамітно і скільки в гру не грай, все ще цікаво.</div>
+                        <div class="review__src">Знайди відгук на <a href="#">Google Maps</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section regimes role-game" style="background-image: url(/img/images/regime-bg.jpg);">
+        <div class="container">
+          <h2 class="text-center ttl-md section__ttl text-shadow text-uppercase">РОЛЬОВА ГРА</h2>
+          <ul class="nav tabs regimes__tabs" role="tablist">
+            <li class="active" role="presentation"><a href="#game-tab-1" aria-controls="game-tab-1" role="tab" data-toggle="tab"> 
+                <div class="bordered-shadow"><img src="img/images/game-tab-1.jpg" alt=""></div></a></li>
+            <li role="presentation"><a href="#game-tab-2" aria-controls="game-tab-2" role="tab" data-toggle="tab"> 
+                <div class="bordered-shadow"><img src="img/images/game-tab-2.jpg" alt=""></div></a></li>
+            <li role="presentation"><a href="#game-tab-3" aria-controls="game-tab-3" role="tab" data-toggle="tab"> 
+                <div class="bordered-shadow"><img src="img/images/game-tab-3.jpg" alt=""></div></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active has-ttl" id="game-tab-1" role="tabpanel">
+              <div class="new-role">
+                <div class="new-role__text">
+                  <div class="new-role__icon">
+                    <div class="icon capitan"></div>
+                  </div>
+                  <div class="new-role__ttl">Капітан</div>
+                  <div class="new-role__txt"> 
+                    <p>Очоль свою команду, віддавай накази, приймаючи тактичні рішення в кожну хвилину бою. Капітан - саме той гравець, що здатен швидко приймати рішення та не боїться брати на себе відповідальність. Від рішень цього члена команди залежить тактика та стратегія ведення бою. </p>
+                    <p class="foottip">Рівень складності: Cередній </p>
+                  </div>
+                </div>
+                <div class="new-role__img"><img src="/img/pictures/capitan.jpg" alt=""></div>
+              </div>
+            </div>
+            <div class="tab-pane" id="game-tab-2" role="tabpanel">
+              <div class="new-role">
+                <div class="new-role__text">
+                  <div class="new-role__icon">
+                    <div class="icon lotsman"></div>
+                  </div>
+                  <div class="new-role__ttl">Лоцман</div>
+                  <div class="new-role__txt"> 
+                    <p>Аналітичний центр команди. Саме від цього гравця залежить аналіз карт та вичислення дислокації ворожих кораблів. Також лоцман відповідає за порятунок та цілісність свого флоту</p>
+                    <p>Рівень складності: Підвищенний </p>
+                  </div>
+                </div>
+                <div class="new-role__img"><img src="/img/pictures/lotsman.jpg" alt=""></div>
+              </div>
+            </div>
+            <div class="tab-pane play-zone-tab" id="game-tab-3" role="tabpanel">
+              <div class="new-role">
+                <div class="new-role__text">
+                  <div class="new-role__icon">
+                    <div class="icon canonir"></div>
+                  </div>
+                  <div class="new-role__ttl">Канонір</div>
+                  <div class="new-role__txt"> 
+                    <p>Управляй гарматами, обстрілюй ворожий флот. Слідкуй за діями супротивника та доповідай своїй команді. Від тебе залежить швидкість команди та актуальність розвіданої інформації </p>
+                    <p class="foottip">Рівень складності: Нормальний </p>
+                  </div>
+                </div>
+                <div class="new-role__img"><img src="/img/pictures/canonir.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="opposition">
+          <div class="container">
+            <h2 class="text-center ttl-md section__ttl text-shadow text-uppercase">ПРОТИСТОЯННЯ <br>ДВОХ КОМАНД</h2>
+            <div class="opposition__slider dark-bg dark-bg--2 bordered-shadow">
+              <div class="js-opposition-slider">
+                <div class="opposition__slide">
+                  <div class="opposition__slide-top">
+                    <div class="item"> 
+                      <div class="player-count">3 гравця</div>
+                      <div class="text-light-blue">+ радники</div>
+                    </div>
+                    <div class="item vs-item">
+                      <div class="icon vs"></div>
+                      <div>проти</div>
+                    </div>
+                    <div class="item"> 
+                      <div class="player-count">3 гравця</div>
+                      <div class="text-light-blue">+ радники</div>
+                    </div>
+                  </div>
+                  <div class="opposition__slide-txt">Наші профі можуть грати за будь-яку ігрову роль, та приймати більш або меньш активну участь в грі (залежить від вас).</div>
+                </div>
+                <div class="opposition__slide">
+                  <div class="opposition__slide-top">
+                    <div class="item"> 
+                      <div class="player-count"> 1 гравець</div>
+                    </div>
+                    <div class="item vs-item">
+                      <div class="icon vs"></div>
+                      <div>проти</div>
+                    </div>
+                    <div class="item"> 
+                      <div class="player-count"> 1 гравець</div>
+                    </div>
+                  </div>
+                  <div class="opposition__slide-txt">Формат гри для дуже досвідчених гравців. Якщо ви зіграли хоча б 3 матчі і знате обов’язки кожної ролі, ласкаво просимо спробувати =).</div>
+                </div>
+                <div class="opposition__slide">
+                  <div class="opposition__slide-top">
+                    <div class="item"> 
+                      <div class="player-count"> 4 гравця</div>
+                    </div>
+                    <div class="item vs-item">
+                      <div class="icon vs"></div>
+                      <div>проти</div>
+                    </div>
+                    <div class="item"> 
+                      <div class="player-count"> 4 гравця</div>
+                    </div>
+                  </div>
+                  <div class="opposition__slide-txt">Спеціальний формат для <span class="text-green">Kids Ground</span>. Обов’язки лоцмана розподілені між двома гравцями.</div>
+                </div>
+                <div class="opposition__slide">
+                  <div class="opposition__slide-top">
+                    <div class="item"> 
+                      <div class="player-count">1 - 2 гравця</div>
+                      <div class="text-light-blue">+ інструктор</div>
+                    </div>
+                    <div class="item vs-item">
+                      <div class="icon vs"></div>
+                      <div>проти</div>
+                    </div>
+                    <div class="item"> 
+                      <div class="player-count">1 - 2 гравця</div>
+                      <div class="text-light-blue">+ інструктор</div>
+                    </div>
+                  </div>
+                  <div class="opposition__slide-txt">Запросіть інструкторів до гри. Наші профі можуть грати за будь-яку ігрову роль, та приймати більш або меньш активну участь в грі (залежить від вас).</div>
+                </div>
+                <div class="opposition__slide">
+                  <div class="opposition__slide-top">
+                    <div class="item"> 
+                      <div class="player-count">2 - 3 гравця</div>
+                    </div>
+                    <div class="item vs-item">
+                      <div class="icon vs"></div>
+                      <div>проти</div>
+                    </div>
+                    <div class="item"> 
+                      <div class="player-count text-light-blue">BR інструктор</div>
+                    </div>
+                  </div>
+                  <div class="opposition__slide-txt">Грайте проти команди Batle Room інструкторів. Залежно від вашого досвіду гри проти вас може грати 1 або 2 існструктори.</div>
+                </div>
+                <div class="opposition__slide">
+                  <div class="opposition__slide-top">
+                    <div class="item"> 
+                      <div class="player-count">2 - 3 гравця</div>
+                    </div>
+                    <div class="item vs-item">
+                      <div class="icon vs"></div>
+                      <div>проти</div>
+                    </div>
+                    <div class="item"> 
+                      <div class="player-count">2 - 3 гравця</div>
+                    </div>
+                  </div>
+                  <div class="opposition__slide-txt">Грайте з друзями. Для гри достатньо 4 гравця. Якщо в команді грає двоє гравців, один з гравців виконує фукнції  капітана.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section processes" style="background-image: url(/img/images/regime-bg.jpg);">
+        <div class="container">
+          <h2 class="text-center ttl-md section__ttl text-shadow text-uppercase">ІГРОВИЙ ПРОЦЕС</h2>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 d-flex">
+              <div class="process">
+                <div class="process__icons">
+                  <div class="process__icon process-1"></div>
+                </div>
+                <div class="process__inf">
+                  <div class="process__img"><img src="img/pictures/proc-1.jpg" alt=""></div>
+                  <div class="process__ttl">Обстріл</div>
+                  <div class="process__txt">Наводьте гармати та обстрілюйте ворожі позиції</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex">
+              <div class="process">
+                <div class="process__icons">
+                  <div class="process__icon process-2"></div>
+                </div>
+                <div class="process__inf">
+                  <div class="process__img"><img src="img/pictures/proc-2.jpg" alt=""></div>
+                  <div class="process__ttl">Пульт капітана</div>
+                  <div class="process__txt">Керуйте командою та віддавайте накази</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex">
+              <div class="process">
+                <div class="process__icons">
+                  <div class="process__icon process-2"></div>
+                  <div class="process__icon process-3"></div>
+                  <div class="process__icon process-1"></div>
+                </div>
+                <div class="process__inf">
+                  <div class="process__img"><img src="img/pictures/proc-3.jpg" alt=""></div>
+                  <div class="process__ttl">Підготовка до бою</div>
+                  <div class="process__txt">Оберіть карту для бою та підготуйте флот до початку битви</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex">
+              <div class="process">
+                <div class="process__icons">
+                  <div class="process__icon process-1"></div>
+                  <div class="process__icon process-3"></div>
+                </div>
+                <div class="process__inf">
+                  <div class="process__img"><img src="img/pictures/proc-4.jpg" alt=""></div>
+                  <div class="process__ttl">Розвідка</div>
+                  <div class="process__txt">находьте та фіксуйте місцезнаходженя ворожих кораблів</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex">
+              <div class="process">
+                <div class="process__icons">
+                  <div class="process__icon process-3"></div>
+                </div>
+                <div class="process__inf">
+                  <div class="process__img"><img src="img/pictures/proc-5.jpg" alt=""></div>
+                  <div class="process__ttl">Планшет лоцмана</div>
+                  <div class="process__txt">Аналізуйте переміщення кораблів супротивника</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex">
+              <div class="process">
+                <div class="process__icons">
+                  <div class="process__icon process-3"></div>
+                  <div class="process__icon process-2"></div>
+                </div>
+                <div class="process__inf">
+                  <div class="process__img"><img src="img/pictures/proc-6.jpg" alt=""></div>
+                  <div class="process__ttl">Маневр</div>
+                  <div class="process__txt">Рятуйте кораблі від ворожих обстрілів та розвідок</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex">
+              <div class="process">
+                <div class="process__icons">
+                  <div class="process__icon process-1"></div>
+                </div>
+                <div class="process__inf">
+                  <div class="process__img"><img src="img/pictures/proc-7.jpg" alt=""></div>
+                  <div class="process__ttl">Спостереженя</div>
+                  <div class="process__txt">Слідкуйте за діями ворожої команди! Це дуже важливо для перемоги</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex">
+              <div class="process">
+                <div class="process__icons">
+                  <div class="process__icon process-2"></div>
+                  <div class="process__icon process-1"></div>
+                </div>
+                <div class="process__inf">
+                  <div class="process__img"><img src="img/pictures/proc-8.jpg" alt=""></div>
+                  <div class="process__ttl">Час</div>
+                  <div class="process__txt">Змінюйте стратегію дій залежно від часу вашої та ворожої команди</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section dark-shadow slider-section dark-bg dark-bg--2 trial qr-brdr">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-lg-5 col-xl-6">
+              <div class="room-desc">
+                <div class="d-flex room-desc__row">
+                  <div class="room-desc__icon">
+                    <div class="icon icon-target-doll"></div>
+                  </div>
+                  <div class="room-desc__ttl">
+                    <div class="ttl-large">Вперше в грі?<br>Пройди навчання!</div>
+                  </div>
+                </div>
+                <div class="d-flex room-desc__content">
+                  <div class="room-desc__content-txt">
+                    <p>Прийми участь в навчальному бої. Під час яого наші інструктори навчать основам гри. Ти навчишся керувати пристроями свого ігрового місця та важливим аспектам командної взаємодії. </p>
+                    <p>*Навчальний бій входить у вартість сеансу. Тривалість до 20 хвилин. Одразу після навчання запускається стандартний режим гри (40 хв).                        </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-7 col-xl-6">
+              <div class="bordered-shadow"><img src="/img/pictures/br-img.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section regimes" style="background-image: url(/img/images/regime-bg.jpg);">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center ttl-md section__ttl text-shadow text-uppercase">РЕЖИМИ ГРИ</h2>
+            </div>
+          </div>
+          <ul class="nav tabs regimes__tabs" role="tablist">
+            <li class="active" role="presentation"><a href="#regime-tab-1" aria-controls="regime-tab-1" role="tab" data-toggle="tab"> 
+                <div class="bordered-shadow"><img src="img/images/regime-tab-1.jpg" alt=""></div></a></li>
+            <li role="presentation"><a href="#regime-tab-2" aria-controls="regime-tab-2" role="tab" data-toggle="tab"> 
+                <div class="bordered-shadow"><img src="img/images/regime-tab-2.jpg" alt=""></div></a></li>
+            <li role="presentation"><a href="#regime-tab-3" aria-controls="regime-tab-3" role="tab" data-toggle="tab"> 
+                <div class="bordered-shadow"><img src="img/images/regime-tab-3.jpg" alt=""></div></a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="active tab-pane" id="regime-tab-1" role="tabpanel">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                      <div class="regimes__box">
+                        <div class="regimes__box-icon">
+                          <div class="icon regime-icon-1"></div>
+                        </div>
+                        <div class="regimes__box-txt">
+                          <div class="regimes__box-ttl text-shadow">Покрокова гра</div>Стандартний режим гри де команди ходять по черзі. 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="regimes__box">
+                    <div class="regimes__box-icon">
+                      <div class="icon regime-icon-2"></div>
+                    </div>
+                    <div class="regimes__box-txt">Приймайте рішення та обирайте лише  одну з дій на кожен хід: <span class="text-danger">залп</span>, <span class="text-primary">розвідка</span>, або <span class="text-success">маневр</span></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="regimes__box">
+                    <div class="regimes__box-icon">
+                      <div class="icon regime-icon-3"></div>
+                    </div>
+                    <div class="regimes__box-txt"><span class="text-danger">Знищуйте</span> палуби та отримуйте додатковіходи</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="regimes__box">
+                    <div class="regimes__box-icon">
+                      <div class="icon regime-icon-4"></div>
+                    </div>
+                    <div class="regimes__box-txt">Витрачайте мінімум <span class="text-warning">часу</span> на кожен хід та отримайте перевагу над супротивником в кінці матчу</div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="regimes__box">
+                    <div class="regimes__box-icon">
+                      <div class="icon regime-icon-5"></div>
+                    </div>
+                    <div class="regimes__box-txt">Використовуйте <span class="text-yellow">жовту кнопку</span> на пульті каноніра для завершення кожногоходу                            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row tab-pane" id="regime-tab-2" role="tabpanel">
+              <div class="coming-soon-box"> <span class="text-shadow coming-soon">В розробці<span></span><span></span><span>                               </span></span></div>
+            </div>
+            <div class="row tab-pane" id="regime-tab-3" role="tabpanel">
+              <div class="coming-soon-box"> <span class="text-shadow coming-soon">В розробці<span></span><span></span><span> </span></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section dark-shadow slider-section dark-bg dark-bg--2 qr-brdr" id="order-box">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-shadow ttl-md section__ttl">Оберіть час гри</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col schedule">
+              <div class="schedule__top">
+                <div class="schedule__prices-types"><span class="txt">Оберіть ціну:</span><span class="text-success">100 грн</span><span class="text-warning">120 грн                        </span></div>
+                <div class="schedule__top-nav">
+                  <div class="schedule__top-nav-icon">
+                    <svg class="svg-icon" width="16" height="16" aria-hidden="true">
+                      <use xlink:href="#calendar"></use>
+                    </svg>
+                  </div>
+                  <ul class="nav schedule__weeks js-order-tabs">
+                    <li class="active" role="presentation"><a href="#week-tab-0" aria-controls="#week-tab-0" role="tab" data-toggle="tab"> <span>20.11–26-11</span></a></li>
+                    <li role="presentation"><a href="#week-tab-1" aria-controls="#week-tab-1" role="tab" data-toggle="tab"> <span>20.11–26-11</span></a></li>
+                    <li role="presentation"><a href="#week-tab-2" aria-controls="#week-tab-2" role="tab" data-toggle="tab"> <span>20.11–26-11</span></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tab-content">
+                <div class="tab-pane active" role="tabpanel" id="week-tab-0"> 
+                  <div class="schedule__table">
+                    <div class="slider">
+                      <div class="js-order-slier">
+                        <div class="schedule-slide past ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide past ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide past ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  today">
+                          <div class="date">
+                            <div class="today-ttl text-success">СЬОГОДНІ</div><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control time-control--pg" data-tooltip="забронювати"> 
+                                <div class="text-warning">18:40–23:00</div>
+                                <div class="time__txt">People`s Ground</div>
+                                <div class="icon time__icon order-pg"></div>
+                              </div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 
+                                <div class="text-primary">22:40–05:00</div>
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 
+                                <div class="text-primary">22:40–05:00</div>
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 
+                                <div class="text-primary">22:40–05:00</div>
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" role="tabpanel" id="week-tab-1"> 
+                  <div class="schedule__table">
+                    <div class="slider">
+                      <div class="js-order-slier">
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control time-control--pg" data-tooltip="забронювати"> 
+                                <div class="text-warning">18:40–23:00</div>
+                                <div class="time__txt">People`s Ground</div>
+                                <div class="icon time__icon order-pg"></div>
+                              </div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 
+                                <div class="text-primary">22:40–05:00</div>
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 
+                                <div class="text-primary">22:40–05:00</div>
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 
+                                <div class="text-primary">22:40–05:00</div>
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" role="tabpanel" id="week-tab-2"> 
+                  <div class="schedule__table">
+                    <div class="slider">
+                      <div class="js-order-slier">
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control time-control--pg" data-tooltip="забронювати"> 
+                                <div class="text-warning">18:40–23:00</div>
+                                <div class="time__txt">People`s Ground</div>
+                                <div class="icon time__icon order-pg"></div>
+                              </div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 
+                                <div class="text-primary">22:40–05:00</div>
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 
+                                <div class="text-primary">22:40–05:00</div>
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time disabled">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 22:40–05:00
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon-disabled"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="schedule-slide  ">
+                          <div class="date"><span>22 листопада</span><strong>понеділок  </strong>
+                          </div>
+                          <div class="times">
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-success">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time text-warning">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати">12.00–13.10</div>
+                            </label>
+                            <label class="time">
+                              <input class="time-input js-order-input" type="checkbox" name="time-0"/>
+                              <div class="time-control" data-tooltip="забронювати"> 
+                                <div class="text-primary">22:40–05:00</div>
+                                <div class="time__txt">Battle Room ніч</div>
+                                <div class="icon time__icon order-moon"></div>
+                                <div class="time__tooltip">
+                                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                                    <div class="tooltip-btn__text">
+                                      <p>Залишились питаня? </p>
+                                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу.</p>
+                                    </div>
+                                  </button>
+                                </div>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-shop dark-shadow js-nav-section">
+        <div class="container">
+          <div class="row section-box">
+            <div class="col-md-4 col-lg-4">
+              <div class="card-info">
+                <div class="ttl-large text-warning text-shadow">Магазин
+                  <button class="tooltip-btn" data-toggle="tooltip">                                                       
+                    <div class="tooltip-btn__text">
+                      <p>Залишились питаня? </p>
+                      <p>Зателефонуйте нам і ми дамо вичерпну інформацію про товар або послугу. Також ви можете перевірити інформацію на сторінці “Новачкам”.</p>
+                      <p>P.S. Зустрінимось в Quest Ground =)</p>
+                    </div>
+                  </button>
+                </div>
+                <p class="text-shadow">Додаткові послуги, Battle Room апгрейди та эмоції в подарунок</p><a class="btn btn-outline-primary" href="#">УВІЙТИ</a>
+              </div>
+            </div>
+            <div class="col-md-8 col-lg-8">
+              <div class="section-shop__img text-center"><img src="img/pictures/cards.png" width="555" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section dark-shadow slider-section dark-bg dark-bg--1 slider-arrows qr-brdr qr-brdr--no-btm">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="ttl-md section__ttl text-white slider-section__ttl">Програма лояльності<a class="slider-section__link" href="#">всі знижки</a></h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="slider"> 
+              <div class="js-loyal-slider">
+                <div class="col loyalty-box text-shadow"><a class="link-figure" href="#">
+                    <div class="link-figure__figcaption link-figure__figcaption--center flex-column align-items-start justify-content-start">
+                      <div class="ttl-large d-flex align-items-center"> 
+                        <div class="loyalty-slide__ttl-txt">Знижка для <br> <span class="text-warning">СТУДЕНТІВ</span></div><img class="loyalty-slide__img" src="/img/pictures/heat.png" alt="">
+                      </div>
+                      <p>Студент? Пред’яви студентський квиток та отримай знижку -30 грн на гру в Battle Room, або Quest Room. Студентська знижка діє на всі сеанси з понеділка по п’ятницю що починаються до 18:00.</p>
+                      <p class="tip">*знижки не сумуються</p>
+                      <div class="loyalty-slide__footer text-right align-self-stretch"><span class="date">
+                          <svg class="svg-icon" width="13" height="13" aria-hidden="true">
+                            <use xlink:href="#clock-circular-outline"></use>
+                          </svg>до 28.10.2017</span></div>
+                    </div>
+                    <div class="link-figure__img"><img class="slier-img" src="img/pictures/l1.jpg" width="550" height="400" alt=""></div></a></div>
+                <div class="col loyalty-box text-shadow"><a class="link-figure" href="#">
+                    <div class="link-figure__figcaption link-figure__figcaption--center flex-column align-items-start justify-content-start">
+                      <div class="ttl-large d-flex align-items-center"> 
+                        <div class="loyalty-slide__ttl-txt">Battle Room <br> <span class="text-primary">РЕВАНШ</span></div><img class="loyalty-slide__img" src="/img/pictures/load.png" alt="">
+                      </div>
+                      <p>Грай декілька  матчів підряд та отримуй знижку -25% на другий матч. А якщо один з гравців зіграв більше 5 матчівотримуй -50% знижки!</p>
+                      <p class="tip">*знижки не сумуються</p>
+                    </div>
+                    <div class="link-figure__img"><img class="slier-img" src="img/pictures/l2.jpg" width="550" height="400" alt=""></div></a></div>
+                <div class="col loyalty-box text-shadow"><a class="link-figure" href="#">
+                    <div class="link-figure__figcaption link-figure__figcaption--center flex-column align-items-start justify-content-start">
+                      <div class="ttl-large d-flex align-items-center"> 
+                        <div class="loyalty-slide__ttl-txt">Знижка для <br> <span class="text-warning">СТУДЕНТІВ</span></div><img class="loyalty-slide__img" src="/img/pictures/heat.png" alt="">
+                      </div>
+                      <p>Студент? Пред’яви студентський квиток та отримай знижку -30 грн на гру в Battle Room, або Quest Room. Студентська знижка діє на всі сеанси з понеділка по п’ятницю що починаються до 18:00.</p>
+                      <p class="tip">*знижки не сумуються</p>
+                      <div class="loyalty-slide__footer text-right align-self-stretch"><span class="date">
+                          <svg class="svg-icon" width="13" height="13" aria-hidden="true">
+                            <use xlink:href="#clock-circular-outline"></use>
+                          </svg>до 28.10.2017</span></div>
+                    </div>
+                    <div class="link-figure__img"><img class="slier-img" src="img/pictures/l1.jpg" width="550" height="400" alt=""></div></a></div>
+                <div class="col loyalty-box text-shadow"><a class="link-figure" href="#">
+                    <div class="link-figure__figcaption link-figure__figcaption--center flex-column align-items-start justify-content-start">
+                      <div class="ttl-large d-flex align-items-center"> 
+                        <div class="loyalty-slide__ttl-txt">Battle Room <br> <span class="text-primary">РЕВАНШ</span></div><img class="loyalty-slide__img" src="/img/pictures/load.png" alt="">
+                      </div>
+                      <p>Грай декілька  матчів підряд та отримуй знижку -25% на другий матч. А якщо один з гравців зіграв більше 5 матчівотримуй -50% знижки!</p>
+                      <p class="tip">*знижки не сумуються</p>
+                    </div>
+                    <div class="link-figure__img"><img class="slier-img" src="img/pictures/l2.jpg" width="550" height="400" alt=""></div></a></div>
+              </div>
+              <div class="slider-controls">
+                <div class="slider-controls__inner">
+                  <div class="js-slider-loyal-controls">  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-3 footer-logo"><a href="/"><img src="/img/images/logo.png" width="233" height="89" alt="Quest Groun"></a></div>
+          <div class="col-xs-12 col-md-9 footer-nav">
+            <div class="row">
+              <div class="col-xs-12 col-sm-3">
+                <ul class="list-unstyled footer-nav-list">
+                  <li class="isActive"><a href="#">Новини</a></li>
+                  <li><a href="#">Новачкам</a></li>
+                  <li><a href="#">Програма лояльності</a></li>
+                  <li><a href="#">Магазин</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <ul class="list-unstyled footer-nav-list">
+                  <li><a href="contacts.html">Контакти </a></li>
+                  <li><a href="#">Kids Ground</a></li>
+                  <li><a href="#">Battle Room</a></li>
+                  <li><a href="#">Quest Room</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="footer__title">Контакти:</div>
+                <div class="contacts-info">
+                  <div class="row">
+                    <div class="col">
+                      <div class="contacts-info__ttl d-flex align-items-center">
+                        <div class="icon icon-tel"> </div>Телефон
+                      </div>
+                      <ul class="list-unstyled">
+                        <li> <a href="tel:+38 073 561 66 88">+38 073 561 66 88</a></li>
+                        <li> <a href="tel:+38 073 561 66 88">+38 098 561 66 88</a></li>
+                      </ul>
+                      <div class="contacts-info__ttl d-flex align-items-center">
+                        <div class="icon icon-marker"></div>Адреса
+                      </div>
+                      <ul class="list-unstyled">
+                        <li> м. Львів, <br>вул. Хорватська 6<br><span class="text-warning">біля ц.Анни</span></li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                      <div class="contacts-info__ttl d-flex align-items-center">
+                        <div class="icon icon-email"></div>E–mail
+                      </div>
+                      <ul class="list-unstyled">
+                        <li> <a href="mailto:lviv@questground.com">lviv@questground.com</a></li>
+                      </ul>
+                      <div class="contacts-info__ttl">Ми в соціальних мережах:</div>
+                      <ul class="list-unstyled contacts-soc-list contacts-soc-list--type-1">
+                        <li> <a href="https://www.facebook.com/questground/">
+                            <div class="icon icon-fb"></div></a></li>
+                        <li> <a href="https://www.instagram.com/questground/">
+                            <div class="icon icon-inst"></div></a></li>
+                        <li> <a href="https://www.youtube.com/channel/UCrgoQbDEQR_uzxtxj2iMeFg">
+                            <div class="icon icon-yt"></div></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="footer__title">Наші проекти:</div><a class="other-project" href="">
+            <div class="other-project__img"><img src="/img/pictures/1-pr.jpg" alt=""></div></a>
+        </div>
+        <div class="row justify-content-between align-items-center footline">
+          <div class="col copy">Всі права захищенні, 2018</div>
+        </div>
+      </div>
+    </footer>
+    <!-- modals-->
+    <div class="modal modal-video fade" id="modal-video" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-video js-modal-video">
+              <div id="js-modal-video"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order fade" id="modal-order" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Бронювання гри</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse js-order-form" action="">
+              <template id="order-thanks">
+                <div class="thanks text-center js-thanks">
+                  <div> 
+                    <div class="icon ok"></div>
+                  </div>
+                  <div class="thanks__ttl">Дякуємо за замовлення!</div>
+                  <div class="thanks__txt">Найближчим часом ми зателефонуємо вам на вказаний номер телефону</div><a class="thanks__link" href="tel:+380676758482">+38 (067) 675 84 82</a><small>*при замовленні після 22:00 очікуйте дзвінок наступного дня</small>
+                </div>
+              </template>
+              <div class="col-sm-6">
+                <div class="js-order-inner order-inner">
+                  <div class="js-order-controls">
+                    <div class="form-group">
+                      <select class="form-control" name="team" required>
+                        <option value="0">Кількість гравців</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="text" placeholder="Ваше ім’я">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="text" placeholder="Ваше прізвище">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="tel" placeholder="Ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="email" placeholder="Ваш e–mail">
+                    </div>
+                    <div class="form-group">
+                      <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Забронювати гру</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="game">
+                  <div class="game__ttl">Пірати проти Імперії: Морський Бій</div>
+                  <ul class="list-unstyled game__list">
+                    <li>
+                      <div class="key">Дата:</div>
+                      <div class="val"> 21.11.2017 <span>(вівторок)</span></div>
+                    </li>
+                    <li>
+                      <div class="key">Година:</div>
+                      <div class="val"> 12.00–13.10</div>
+                    </li>
+                    <li>
+                      <div class="key">Адреса:</div>
+                      <div class="val"> м. Львів, Хорватська 6</div>
+                    </li>
+                    <li>
+                      <div class="key">Ціна:</div>
+                      <div class="val">200 грн <span>(з команди)</span></div>
+                      <div class="val">100 грн <span>(з кожного гравця)</span></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-thanks fade" id="modal-thanks" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Замовлення пригод</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <div class="txt">Дякуємо за замовлення!<br>Ми зв’яжемося з вами найближчим часом<br>за вказаним телефоном: <a href="tel:+380676758482">+38 (067) 675 84 82</a></div>
+            <button class="btn btn-outline-dark js-popup-close" type="button">Ок, дякую</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order fade" id="modal-individual" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Індивідуальний прорахунок</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse" action="">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="team" required>
+                    <option value="">Вкажіть кількість гравців</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="" cols="30" rows="8" placeholder="Опишіть ваші побажання"></textarea>
+                </div>
+                <div class="text-center footnote">Ми врахуємо ващі побажання, перевіримо графік замовлень та зв’яжемось з вами найближчим часом</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="date" required>
+                    <option value="">Оберіть бажану дату</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="time" required>
+                    <option value="">Оберіть годину початку пригод</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Ваше ім’я та прізвище" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="tel" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Ваш e–mail" required>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Забронювати гру</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order fade" id="modal-tournament" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Замовлення турніру</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse" action="">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="team" required>
+                    <option value="">Вкажіть кількість гравців</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="" cols="30" rows="8" placeholder="Опишіть середній вік гравців та ваші побажання"></textarea>
+                </div>
+                <div class="text-center footnote">Ми врахуємо ващі побажання, перевіримо графік замовлень та зв’яжемось з вами найближчим часом</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="date" required>
+                    <option value="">Оберіть бажану дату</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="time" required>
+                    <option value="">Оберіть годину початку пригод</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Ваше ім’я та прізвище" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="tel" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Ваш e–mail" required>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Забронювати гру</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order modal-complect fade" id="modal-complect" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Замовлення пригод <span>Комплект №1 </span></div>
+            <p>3,5 год. розваг для 4-7 гравців ПН-ЧТ до 18:00</p>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse" action="">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <textarea class="form-control" name="" cols="30" rows="6" placeholder="Ваш коментар або додаткові побажання"></textarea>
+                </div>
+                <div class="game">
+                  <ul class="list-unstyled game__list">
+                    <li>
+                      <div class="key">Адреса:</div>
+                      <div class="val"> м. Львів, Хорватська 6</div>
+                    </li>
+                    <li>
+                      <div class="key">Ціна:</div>
+                      <div class="val">1700 грн</div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="text-center footnote">Ми врахуємо ващі побажання, перевіримо графік замовлень та зв’яжемось з вами найближчим часом</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="date" required>
+                    <option value="">Оберіть бажану дату</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="time" required>
+                    <option value="">Оберіть приблизну годину початку</option>
+                    <option value="1">12:00</option>
+                    <option value="2">13:00</option>
+                    <option value="3">14:00</option>
+                    <option value="4">15:00</option>
+                    <option value="5">16:00</option>
+                    <option value="6">17:00</option>
+                    <option value="6">18:00</option>
+                    <option value="6">19:00</option>
+                    <option value="6">20:00</option>
+                    <option value="6">21:00</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Ваше ім’я та прізвище" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="tel" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Ваш e–mail" required>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Замовити</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-blog fade" id="modal-blog" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <button class="close-article" type="button" data-dismiss="modal" aria-label="Close"><span class="d-flex align-items-center"><span class="icon icon-arrow-white" aria-hidden="true"> </span>Назад</span></button>
+          <div class="modal-body clearfix js-post-content"></div>
+        </div>
+      </div>
+    </div>
+    <!-- modals end-->
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCkYAwhzbXlBayCV1HYYFRy9nR_2Z4gujw"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <!-- footer end-->
+  </body>
+</html>

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Main page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/images/favicon/manifest.json">
+    <link rel="mask-icon" href="img/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <link media="all" type="text/css" rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <!-- header-->
+    <header class="header js-header">
+      <div class="container">
+        <div class="row flex-nowrap">
+          <div class="col header-logo"> <a href="/"><img src="/img/images/logo.png" width="105" height="40" alt="Quest Ground logo"></a></div>
+          <div class="col header-nav">
+            <button class="btn menu-btn menu-open js-open-menu" type="button">
+              <svg class="svg-icon" width="36" height="36" aria-hidden="true">
+                <use xlink:href="#menu"></use>
+              </svg>
+            </button>
+            <nav class="main-nav">
+              <button class="btn menu-btn menu-close js-close-menu" type="button">
+                <svg class="svg-icon" width="36" height="36" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg>
+              </button>
+              <div class="main-nav__inner">
+                <div class="main-nav__logo text-center"><a href="/"><img src="/img/images/logo.png" width="105" height="40" alt="Quest Ground logo"></a></div>
+                <ul class="list-unstyled main-nav__list">
+                  <li><a class="isCurrent" href="">Новини     </a></li>
+                  <li><a href="">Новачкам     </a></li>
+                  <li><a href="">Програма лояльностi</a></li>
+                  <li><a href="">Магазин     </a></li>
+                  <li><a href="contacts.html">Контакти     </a></li>
+                  <li class="hasSubNav"><a href="">Розпочати пригоди </a>
+                    <ul class="sub-menu">
+                      <li><a href="">Battle Room</a></li>
+                      <li><a href="">Quest Room</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end-->
+    <div class="page blog">
+      <section>
+        <div class="container">
+          <h2 class="ttl-md section__ttl text-white slider-section__ttl"><span class="text-primary">Н</span>овини | <span class="text-success">П</span>одії | <span class="text-warning">С</span>татті</h2>
+          <div class="row">
+            <div class="col-md-9">
+              <ul class="pagination">
+                <li><a class="current" href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li>...</li>
+                <li><a href="">18</a></li>
+                <li><a href="">19</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <div class="dropdown">
+                <button class="dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Всі</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#" style="background-image: url(img/pictures/kit-6.jpg);"> <span>Ігровий процес</span></a><a class="dropdown-item" href="#" style="background-image: url(img/pictures/kit-5.jpg);"> <span>Турніри</span></a><a class="dropdown-item" href="#" style="background-image: url(img/pictures/kit-4.jpg);"> <span>Золото та нагороди</span></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-4 blog__item"><a class="link-figure js-blog-modal-link" href="#" data-content-id="#content-id-0">
+                <div class="link-figure__figcaption slide-caption flex-column align-items-start">
+                  <div class="slide-ttl">Ще одна новинка в магазині     </div><span class="tag text-primary">Новина</span>
+                </div>
+                <div class="link-figure__img"><img class="slier-img" src="img/pictures/n0.jpg" width="260" height="425" alt=""></div></a></div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 blog__item"><a class="link-figure js-blog-modal-link" href="#" data-content-id="#content-id-1">
+                <div class="link-figure__figcaption slide-caption flex-column align-items-start">
+                  <div class="slide-ttl">Жінки проти Чоловіків в Battle Room?</div><span class="tag text-warning">Стаття</span>
+                </div>
+                <div class="link-figure__img"><img class="slier-img" src="img/pictures/n1.jpg" width="260" height="425" alt=""></div></a></div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 blog__item"><a class="link-figure js-blog-modal-link" href="#" data-content-id="#content-id-2">
+                <div class="link-figure__figcaption slide-caption flex-column align-items-start">
+                  <div class="slide-ttl">Ще одна новинка в магазині</div>
+                  <div class="d-flex align-self-stretch justify-content-between align-items-center"><span class="tag text-success">Подія</span><span class="date">
+                      <svg class="text-success" width="13" height="13" aria-hidden="true">
+                        <use xlink:href="#clock-circular-outline"></use>
+                      </svg>28.10.2017</span><span class="time">19:00</span></div>
+                </div>
+                <div class="link-figure__img"><img class="slier-img" src="img/pictures/n2.jpg" width="260" height="425" alt=""></div></a></div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 blog__item"><a class="link-figure js-blog-modal-link" href="#" data-content-id="#content-id-0">
+                <div class="link-figure__figcaption slide-caption flex-column align-items-start">
+                  <div class="slide-ttl">Ще одна новинка в магазині     </div><span class="tag text-primary">Новина</span>
+                </div>
+                <div class="link-figure__img"><img class="slier-img" src="img/pictures/n0.jpg" width="260" height="425" alt=""></div></a></div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 blog__item"><a class="link-figure js-blog-modal-link" href="#" data-content-id="#content-id-1">
+                <div class="link-figure__figcaption slide-caption flex-column align-items-start">
+                  <div class="slide-ttl">Жінки проти Чоловіків в Battle Room?</div><span class="tag text-warning">Стаття</span>
+                </div>
+                <div class="link-figure__img"><img class="slier-img" src="img/pictures/n1.jpg" width="260" height="425" alt=""></div></a></div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 blog__item"><a class="link-figure js-blog-modal-link" href="#" data-content-id="#content-id-2">
+                <div class="link-figure__figcaption slide-caption flex-column align-items-start">
+                  <div class="slide-ttl">Ще одна новинка в магазині</div>
+                  <div class="d-flex align-self-stretch justify-content-between align-items-center"><span class="tag text-success">Подія</span><span class="date">
+                      <svg class="text-success" width="13" height="13" aria-hidden="true">
+                        <use xlink:href="#clock-circular-outline"></use>
+                      </svg>28.10.2017</span><span class="time">19:00</span></div>
+                </div>
+                <div class="link-figure__img"><img class="slier-img" src="img/pictures/n2.jpg" width="260" height="425" alt=""></div></a></div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 blog__item"><a class="link-figure js-blog-modal-link" href="#" data-content-id="#content-id-0">
+                <div class="link-figure__figcaption slide-caption flex-column align-items-start">
+                  <div class="slide-ttl">Ще одна новинка в магазині     </div><span class="tag text-primary">Новина</span>
+                </div>
+                <div class="link-figure__img"><img class="slier-img" src="img/pictures/n0.jpg" width="260" height="425" alt=""></div></a></div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 blog__item"><a class="link-figure js-blog-modal-link" href="#" data-content-id="#content-id-1">
+                <div class="link-figure__figcaption slide-caption flex-column align-items-start">
+                  <div class="slide-ttl">Жінки проти Чоловіків в Battle Room?</div><span class="tag text-warning">Стаття</span>
+                </div>
+                <div class="link-figure__img"><img class="slier-img" src="img/pictures/n1.jpg" width="260" height="425" alt=""></div></a></div>
+            <div class="col-xs-12 col-sm-6 col-lg-4 blog__item"><a class="link-figure js-blog-modal-link" href="#" data-content-id="#content-id-2">
+                <div class="link-figure__figcaption slide-caption flex-column align-items-start">
+                  <div class="slide-ttl">Ще одна новинка в магазині</div>
+                  <div class="d-flex align-self-stretch justify-content-between align-items-center"><span class="tag text-success">Подія</span><span class="date">
+                      <svg class="text-success" width="13" height="13" aria-hidden="true">
+                        <use xlink:href="#clock-circular-outline"></use>
+                      </svg>28.10.2017</span><span class="time">19:00</span></div>
+                </div>
+                <div class="link-figure__img"><img class="slier-img" src="img/pictures/n2.jpg" width="260" height="425" alt=""></div></a></div>
+          </div>
+          <ul class="pagination">
+            <li><a class="current" href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li>...</li>
+            <li><a href="">18</a></li>
+            <li><a href="">19</a></li>
+          </ul>
+          <div class="hidden" id="content-id-0">
+            <div class="js-article-content"><img class="align-left" src="/img/pictures/n0.jpg" alt="">
+              <h3>Новий режим гри Battle Room “Ріалтайм” вже відкритий для регулярних матчів!0</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet id donec ultrices tincidunt arcu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Consequat mauris nunc congue nisi vitae suscipit. At ultrices mi tempus imperdiet nulla malesuada pellentesque. Hac habitasse platea dictumst quisque sagittis purus. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Risus nullam eget felis eget nunc lobortis mattis. Leo a diam sollicitudin tempor id eu nisl.</p>
+              <p>Id donec ultrices tincidunt arcu non sodales neque sodales ut. In massa tempor nec feugiat. Eu volutpat odio facilisis mauris. Aliquet lectus proin nibh nisl. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Vitae tempus quam pellentesque nec nam aliquam sem. Facilisis voluId donec ultrices tincidunt arcu non sodales neque sodales ut. In massa tempor nec feugiat. Eu volutpat odio facilisis mauris. Aliquet lectus proin nibh nisl. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. lectus proin nibh nisl. Scelerisq lectus proin nibh nisl. Scelerisq lectus proin nibh nisl. Scelerisq lectus proin nibh nisl. Scelerisqlectus proin nibh nisl. Scelerisq</p><img class="align-right" src="/img/pictures/n2.jpg" alt="">
+              <h3>Нові можливості та море фану!</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet id donec ultrices tincidunt arcu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Consequat mauris nunc congue nisi vitae suscipit. At ultrices mi tempus imperdiet nulla malesuada pellentesque. Hac habitasse platea dictumst quisque sagittis purus. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Risus nullam eget felis eget nunc lobortis mattis. Leo a diam sollicitudin tempor id eu nisl.</p>
+              <p>Id donec ultrices tincidunt arcu non sodales neque sodales ut. In massa tempor nec feugiat. Eu volutpat odio facilisis mauris. Aliquet lectus proin nibh nisl. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Vitae tempus quam pellentesque nec nam aliquam sem. Facilisis volu</p>
+              <div class="order text-center">
+                <div><img src="/img/pictures/cards.png" alt=""></div><a class="btn btn--sm btn-outline-primary" href="">ЗАБРОНЮВАТИ</a>
+              </div>
+            </div>
+          </div>
+          <div class="hidden" id="content-id-1">
+            <div class="js-article-content">
+              <div class="head-img"><img src="/img/pictures/1-m-bg.jpg" alt=""></div>
+              <h3>Новий комплект карт вже в магазині!</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet id donec ultrices tincidunt arcu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Consequat mauris nunc congue nisi vitae suscipit. At ultrices mi tempus imperdiet nulla malesuada pellentesque. Hac habitasse platea dictumst quisque sagittis purus. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Risus nullam eget felis eget nunc lobortis mattis. Leo a diam sollicitudin tempor id eu nisl.</p><img class="align-right" src="/img/pictures/cards.png" alt="">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet id donec ultrices tincidunt arcu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Consequat mauris nunc congue nisi vitae suscipit. At ultrices mi tempus imperdiet nulla malesuada pellentesque. Hac habitasse platea dictumst quisque sagittis purus. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Risus nullam eget felis eget nunc lobortis mattis. Leo a diam sollicitudin tempor id eu nisl.</p>
+              <p>Id donec ultrices tincidunt arcu non sodales neque sodales ut. In massa tempor nec feugiat. Eu volutpat odio facilisis mauris. Aliquet lectus proin nibh nisl. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Vitae tempus quam pellentesque nec nam aliquam sem. Facilisis voluId donec ultrices tincidunt arcu non sodales neque sodales ut. In massa tempor nec feugiat. Eu volutpat odio facilisis mauris. Aliquet lectus proin nibh nisl. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. lectus proin nibh nisl. Scelerisq lectus proin nibh nisl. Scelerisq lectus proin nibh nisl. Scelerisq lectus proin nibh nisl. Scelerisqlectus proin nibh nisl. Scelerisq</p>
+              <div class="order text-center"><a class="btn btn--sm btn-outline-primary" href="">В МАГАЗИН</a></div>
+            </div>
+          </div>
+          <div class="hidden" id="content-id-2">
+            <div class="js-article-content"><img class="align-left" src="/img/pictures/n0.jpg" alt="">
+              <h3>Новий режим гри Battle Room “Ріалтайм” вже відкритий для регулярних матчів!2</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet id donec ultrices tincidunt arcu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Consequat mauris nunc congue nisi vitae suscipit. At ultrices mi tempus imperdiet nulla malesuada pellentesque. Hac habitasse platea dictumst quisque sagittis purus. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Risus nullam eget felis eget nunc lobortis mattis. Leo a diam sollicitudin tempor id eu nisl.</p>
+              <p>Id donec ultrices tincidunt arcu non sodales neque sodales ut. In massa tempor nec feugiat. Eu volutpat odio facilisis mauris. Aliquet lectus proin nibh nisl. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Vitae tempus quam pellentesque nec nam aliquam sem. Facilisis voluId donec ultrices tincidunt arcu non sodales neque sodales ut. In massa tempor nec feugiat. Eu volutpat odio facilisis mauris. Aliquet lectus proin nibh nisl. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. lectus proin nibh nisl. Scelerisq lectus proin nibh nisl. Scelerisq lectus proin nibh nisl. Scelerisq lectus proin nibh nisl. Scelerisqlectus proin nibh nisl. Scelerisq</p><img class="align-right" src="/img/pictures/n2.jpg" alt="">
+              <h3>Нові можливості та море фану!</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet id donec ultrices tincidunt arcu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Consequat mauris nunc congue nisi vitae suscipit. At ultrices mi tempus imperdiet nulla malesuada pellentesque. Hac habitasse platea dictumst quisque sagittis purus. Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla. Risus nullam eget felis eget nunc lobortis mattis. Leo a diam sollicitudin tempor id eu nisl.</p>
+              <p>Id donec ultrices tincidunt arcu non sodales neque sodales ut. In massa tempor nec feugiat. Eu volutpat odio facilisis mauris. Aliquet lectus proin nibh nisl. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Vitae tempus quam pellentesque nec nam aliquam sem. Facilisis volu</p>
+              <div class="order text-center">
+                <div><img src="/img/pictures/cards.png" alt=""></div><a class="btn btn--sm btn-outline-primary" href="">ЗАБРОНЮВАТИ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-3 footer-logo"><a href="/"><img src="/img/images/logo.png" width="233" height="89" alt="Quest Groun"></a></div>
+          <div class="col-xs-12 col-md-9 footer-nav">
+            <div class="row">
+              <div class="col-xs-12 col-sm-3">
+                <ul class="list-unstyled footer-nav-list">
+                  <li class="isActive"><a href="#">Новини</a></li>
+                  <li><a href="#">Новачкам</a></li>
+                  <li><a href="#">Програма лояльності</a></li>
+                  <li><a href="#">Магазин</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-3">
+                <ul class="list-unstyled footer-nav-list">
+                  <li><a href="contacts.html">Контакти </a></li>
+                  <li><a href="#">Kids Ground</a></li>
+                  <li><a href="#">Battle Room</a></li>
+                  <li><a href="#">Quest Room</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="footer__title">Контакти:</div>
+                <div class="contacts-info">
+                  <div class="row">
+                    <div class="col">
+                      <div class="contacts-info__ttl d-flex align-items-center">
+                        <div class="icon icon-tel"> </div>Телефон
+                      </div>
+                      <ul class="list-unstyled">
+                        <li> <a href="tel:+38 073 561 66 88">+38 073 561 66 88</a></li>
+                        <li> <a href="tel:+38 073 561 66 88">+38 098 561 66 88</a></li>
+                      </ul>
+                      <div class="contacts-info__ttl d-flex align-items-center">
+                        <div class="icon icon-marker"></div>Адреса
+                      </div>
+                      <ul class="list-unstyled">
+                        <li> м. Львів, <br>вул. Хорватська 6<br><span class="text-warning">біля ц.Анни</span></li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                      <div class="contacts-info__ttl d-flex align-items-center">
+                        <div class="icon icon-email"></div>E–mail
+                      </div>
+                      <ul class="list-unstyled">
+                        <li> <a href="mailto:lviv@questground.com">lviv@questground.com</a></li>
+                      </ul>
+                      <div class="contacts-info__ttl">Ми в соціальних мережах:</div>
+                      <ul class="list-unstyled contacts-soc-list contacts-soc-list--type-1">
+                        <li> <a href="https://www.facebook.com/questground/">
+                            <div class="icon icon-fb"></div></a></li>
+                        <li> <a href="https://www.instagram.com/questground/">
+                            <div class="icon icon-inst"></div></a></li>
+                        <li> <a href="https://www.youtube.com/channel/UCrgoQbDEQR_uzxtxj2iMeFg">
+                            <div class="icon icon-yt"></div></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="footer__title">Наші проекти:</div><a class="other-project" href="">
+            <div class="other-project__img"><img src="/img/pictures/1-pr.jpg" alt=""></div></a>
+        </div>
+        <div class="row justify-content-between align-items-center footline">
+          <div class="col copy">Всі права захищенні, 2018</div>
+        </div>
+      </div>
+    </footer>
+    <!-- modals-->
+    <div class="modal modal-video fade" id="modal-video" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <div class="modal-video js-modal-video">
+              <div id="js-modal-video"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order fade" id="modal-order" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Бронювання гри</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse js-order-form" action="">
+              <template id="order-thanks">
+                <div class="thanks text-center js-thanks">
+                  <div> 
+                    <div class="icon ok"></div>
+                  </div>
+                  <div class="thanks__ttl">Дякуємо за замовлення!</div>
+                  <div class="thanks__txt">Найближчим часом ми зателефонуємо вам на вказаний номер телефону</div><a class="thanks__link" href="tel:+380676758482">+38 (067) 675 84 82</a><small>*при замовленні після 22:00 очікуйте дзвінок наступного дня</small>
+                </div>
+              </template>
+              <div class="col-sm-6">
+                <div class="js-order-inner order-inner">
+                  <div class="js-order-controls">
+                    <div class="form-group">
+                      <select class="form-control" name="team" required>
+                        <option value="0">Кількість гравців</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="text" placeholder="Ваше ім’я">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="text" placeholder="Ваше прізвище">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="tel" placeholder="Ваш телефон">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" type="email" placeholder="Ваш e–mail">
+                    </div>
+                    <div class="form-group">
+                      <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Забронювати гру</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="game">
+                  <div class="game__ttl">Пірати проти Імперії: Морський Бій</div>
+                  <ul class="list-unstyled game__list">
+                    <li>
+                      <div class="key">Дата:</div>
+                      <div class="val"> 21.11.2017 <span>(вівторок)</span></div>
+                    </li>
+                    <li>
+                      <div class="key">Година:</div>
+                      <div class="val"> 12.00–13.10</div>
+                    </li>
+                    <li>
+                      <div class="key">Адреса:</div>
+                      <div class="val"> м. Львів, Хорватська 6</div>
+                    </li>
+                    <li>
+                      <div class="key">Ціна:</div>
+                      <div class="val">200 грн <span>(з команди)</span></div>
+                      <div class="val">100 грн <span>(з кожного гравця)</span></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-thanks fade" id="modal-thanks" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Замовлення пригод</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <div class="txt">Дякуємо за замовлення!<br>Ми зв’яжемося з вами найближчим часом<br>за вказаним телефоном: <a href="tel:+380676758482">+38 (067) 675 84 82</a></div>
+            <button class="btn btn-outline-dark js-popup-close" type="button">Ок, дякую</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order fade" id="modal-individual" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Індивідуальний прорахунок</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse" action="">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="team" required>
+                    <option value="">Вкажіть кількість гравців</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="" cols="30" rows="8" placeholder="Опишіть ваші побажання"></textarea>
+                </div>
+                <div class="text-center footnote">Ми врахуємо ващі побажання, перевіримо графік замовлень та зв’яжемось з вами найближчим часом</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="date" required>
+                    <option value="">Оберіть бажану дату</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="time" required>
+                    <option value="">Оберіть годину початку пригод</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Ваше ім’я та прізвище" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="tel" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Ваш e–mail" required>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Забронювати гру</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order fade" id="modal-tournament" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Замовлення турніру</div>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse" action="">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="team" required>
+                    <option value="">Вкажіть кількість гравців</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="" cols="30" rows="8" placeholder="Опишіть середній вік гравців та ваші побажання"></textarea>
+                </div>
+                <div class="text-center footnote">Ми врахуємо ващі побажання, перевіримо графік замовлень та зв’яжемось з вами найближчим часом</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="date" required>
+                    <option value="">Оберіть бажану дату</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="time" required>
+                    <option value="">Оберіть годину початку пригод</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Ваше ім’я та прізвище" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="tel" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Ваш e–mail" required>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Забронювати гру</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-order modal-complect fade" id="modal-complect" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="ttl-md">Замовлення пригод <span>Комплект №1 </span></div>
+            <p>3,5 год. розваг для 4-7 гравців ПН-ЧТ до 18:00</p>
+            <button class="close js-stop-video" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"> 
+                <svg class="svg-icon" width="11" height="11" aria-hidden="true">
+                  <use xlink:href="#close"></use>
+                </svg></span></button>
+          </div>
+          <div class="modal-body">
+            <form class="row flex-sm-row-reverse" action="">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <textarea class="form-control" name="" cols="30" rows="6" placeholder="Ваш коментар або додаткові побажання"></textarea>
+                </div>
+                <div class="game">
+                  <ul class="list-unstyled game__list">
+                    <li>
+                      <div class="key">Адреса:</div>
+                      <div class="val"> м. Львів, Хорватська 6</div>
+                    </li>
+                    <li>
+                      <div class="key">Ціна:</div>
+                      <div class="val">1700 грн</div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="text-center footnote">Ми врахуємо ващі побажання, перевіримо графік замовлень та зв’яжемось з вами найближчим часом</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control" name="date" required>
+                    <option value="">Оберіть бажану дату</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="time" required>
+                    <option value="">Оберіть приблизну годину початку</option>
+                    <option value="1">12:00</option>
+                    <option value="2">13:00</option>
+                    <option value="3">14:00</option>
+                    <option value="4">15:00</option>
+                    <option value="5">16:00</option>
+                    <option value="6">17:00</option>
+                    <option value="6">18:00</option>
+                    <option value="6">19:00</option>
+                    <option value="6">20:00</option>
+                    <option value="6">21:00</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Ваше ім’я та прізвище" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="tel" placeholder="Ваш телефон" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Ваш e–mail" required>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-dark" type="submit"><span class="btn-icon">+</span>Замовити</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal modal-blog fade" id="modal-blog" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <button class="close-article" type="button" data-dismiss="modal" aria-label="Close"><span class="d-flex align-items-center"><span class="icon icon-arrow-white" aria-hidden="true"> </span>Назад</span></button>
+          <div class="modal-body clearfix js-post-content"></div>
+        </div>
+      </div>
+    </div>
+    <!-- modals end-->
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyCkYAwhzbXlBayCV1HYYFRy9nR_2Z4gujw"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <!-- footer end-->
+  </body>
+</html>
